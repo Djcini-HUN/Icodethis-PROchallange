@@ -16,7 +16,6 @@
 }
 html{
     overflow-x: hidden;
-    
 }
 *{
     margin: 0;
@@ -169,6 +168,10 @@ a{
     align-content: center;
     justify-items: center;
     z-index: 1;
+    width: 100vw;
+}
+.img-grid-container-section>img{
+    max-width:99%;
 }
 .white-shadow{
     position: absolute;
